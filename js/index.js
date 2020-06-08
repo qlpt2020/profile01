@@ -10,3 +10,17 @@
 		return false;
 	});
 });
+
+// slick
+$(document).ready(function(){
+	$('.single').slick({
+		autoplay: true,
+		dots: false,
+		slidesToShow: 3,
+		infinite: true,
+		centerMode: true,
+		speed: 100,
+		slidesToScroll: 3,
+		dotsClass: 'slide-dots'
+	});
+});
