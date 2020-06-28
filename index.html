@@ -59,9 +59,9 @@
             <div class="profile_wrap">
               <h3 class="about_h3">Profile</h3>
               <div class="about_p_wrap js-trigger fade-type-scale_fast fade-scale">
-                <p class="about_p">Miyasato</p>
-                <p class="about_p">1990年 東京都出身</p>
-                <p class="about_p">2014年 東京経済大学卒業</p>
+                <p class="about_p">KM</p>
+                <p class="about_p">199X年 東京都出身</p>
+                <p class="about_p">201X年 東京経済大学卒業</p>
                 <p class="about_p"></p>
                 <p class="about_p">
                   人材派遣会社の営業職としてキャリアをスタート。
@@ -694,7 +694,23 @@
   </a>
 
   <script type="text/javascript" src="slick/slick.min.js"></script> 
-  <script src="js/index.js"></script>
+	<script src="js/index.js"></script>
+	
+	<script>
+		// slick
+$(document).ready(function(){
+	$('.single').slick({
+		autoplay: true,
+		dots: false,
+		slidesToShow: 3,
+		infinite: true,
+		centerMode: true,
+		speed: 100,
+		slidesToScroll: 3,
+		dotsClass: 'slide-dots'
+	});
+});
+	</script>
 
   <!--hamburgerMenu-->
   <script src="js/hamburger.js"></script>
