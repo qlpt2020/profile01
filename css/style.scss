@@ -212,34 +212,34 @@ p {
   overflow: visible;
 }
 
-.progress-bar.color-1 {
-  background: #20b2aa;
-}
-
-.progress-bar.color-2 {
-  background: #ec5453;
-}
-
-.progress-bar.color-3 {
-background: burlywood;
-}
-.progress-bar.color-4 {
-background: purple;
-}
-.progress-bar.color-5 {
-background: #1e90ff;
-}
-.progress-bar.color-6 {
-background: purple;
-}
-.progress-bar.color-7 {
-background: sky;
-}
-.progress-bar.color-8 {
-background: #20b2aa;
-}
-.progress-bar.color-9 {
-background: silver;
+.progress-bar {
+  &.color-1 {
+    background: #20b2aa;
+  }
+  &.color-2 {
+    background: #ec5453;
+  }
+  &.color-3 {
+    background: burlywood;
+  }
+  &.color-4 {
+    background: purple;
+  }
+  &.color-5 {
+    background: #1e90ff;
+  }
+  &.color-6 {
+    background: purple;
+  }
+  &.color-7 {
+    background: sky;
+  }
+  &.color-8 {
+    background: #20b2aa;
+  }
+  &.color-9 {
+    background: silver;
+  }
 }
 
 .progress-wrap {
@@ -274,20 +274,21 @@ background: silver;
     position: absolute;
     transition: all ease .5s;
     width: 100%;
+
+    .portfolio-hover-content {
+      color: #fff;
+      font-size: 20px;
+      height: 20px;
+      margin-top: -12px;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      width: 100%;
+    }
   }
 }
 
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  color: #fff;
-  font-size: 20px;
-  height: 20px;
-  margin-top: -12px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 100%;
-}
+// #portfolio .portfolio-item .portfolio-link .portfolio-hover 
 
 #portfolio .portfolio-item .portfolio-caption {
   background-color: #fff;
@@ -302,7 +303,6 @@ background: silver;
 }
 
 .port_slider {
-  /*width: 1000px;*/
   margin: 0 auto;
   padding: 30px;
 
@@ -410,34 +410,9 @@ ul.social-buttons {
   margin-right: .5rem;
 }
 
-
 .content{
   margin: 0 auto;
   padding: 40px;
-}
-.modal{
-  display: none;
-  /*height: 100vh;*/
-  height: 100%;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.modal__bg{
-  background: rgba(0,0,0,0.8);
-  /*height: 100vh;*/
-  height: 100%;
-  position: absolute;
-  width: 100%;
-}
-.modal__content{
-  background: #fff;
-  left: 50%;
-  padding: 20px;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  width: 90%;
 }
 
 .statement ul {

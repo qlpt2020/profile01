@@ -308,7 +308,6 @@ p {
 }
 
 .port_slider {
-  /*width: 1000px;*/
   margin: 0 auto;
   padding: 30px;
 }
@@ -416,33 +415,6 @@ ul.social-buttons li a {
 .content {
   margin: 0 auto;
   padding: 40px;
-}
-
-.modal {
-  display: none;
-  /*height: 100vh;*/
-  height: 100%;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.modal__bg {
-  background: rgba(0, 0, 0, 0.8);
-  /*height: 100vh;*/
-  height: 100%;
-  position: absolute;
-  width: 100%;
-}
-
-.modal__content {
-  background: #fff;
-  left: 50%;
-  padding: 20px;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
 }
 
 .statement ul {
